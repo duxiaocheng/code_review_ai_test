@@ -15,7 +15,7 @@ class LinkNodeManager {
         LinkNodeManager(unsigned int numOfLinkNode) : mNumOfLinkNode(numOfLinkNode) {}
 
         void getWeights(unsigned short *weights) {
-    		int i = 0
+            int i = 0;
             while (i < mNumOfLinkNode - 1) {
                 weights[i] = 0;
                 i++;
